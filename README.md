@@ -1,9 +1,9 @@
 ﻿# AI-Powered Health Advisor
 
-##Overview:
+Overview:
 MediMate is an AI-powered web application that provides users with instant medical insights based on symptoms they input. The system uses machine learning to predict possible diseases and offers personalized recommendations including medication suggestions, diet plans, precautions, and fitness routines. It bridges the gap between health awareness and actionable guidance.
 
-##Key Highlights:
+Key Highlights:
 1.Symptom-Based Disease Prediction:
 Users enter their symptoms through a simple interface. The backend ML model processes this input to predict the most likely illness.
 2.Tailored Medical Guidance:
@@ -15,21 +15,21 @@ The predictive model is trained on a structured dataset using a Support Vector C
 5.Data Privacy Focused:
 MediMate does not store or share any user data. All symptom inputs are processed in real time, ensuring confidentiality and security.
 
-##Tech Stack:
+Tech Stack:
 Frontend: HTML, CSS (Bootstrap)
 Backend: Python, Flask
 ML Libraries: scikit-learn, pandas, numpy, joblib
 Model: Support Vector Classifier (SVC)
 Others: Jupyter Notebook (for model training), CSV dataset
 
-##How to Use:
+How to Use:
 Clone the repository and navigate to the project directory.
 Create a virtual environment and install dependencies from requirements.txt.
 Run python app.py to start the server.
 Open http://127.0.0.1:5000 in your browser to access MediMate.
 Enter your symptoms and get your personalized health recommendations.
 
-##Project Structure:
+Project Structure:
 app.py: Main application file (Flask backend)
 dataset.csv: Training dataset for disease prediction
 model/: Contains the trained ML model file
@@ -38,7 +38,7 @@ static/: CSS, images, and other static resources
 utils.py: Helper functions for prediction and model loading
 requirements.txt: List of Python dependencies
 
-##Future Enhancements:
+Future Enhancements:
 Integration with a secure user login system
 Option to download a summary report of recommendations
 NLP-powered chatbot interface
