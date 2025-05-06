@@ -26,7 +26,6 @@ How to Use:
 Clone the repository and navigate to the project directory.
 Create a virtual environment and install dependencies from requirements.txt.
 Run python app.py to start the server.
-Open http://127.0.0.1:5000 in your browser to access MediMate.
 Enter your symptoms and get your personalized health recommendations.
 
 Project Structure:
